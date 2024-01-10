@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d5d5d8;
+    margin: auto auto;
+}
+
+.task-manager {
+    margin: 100px auto;
+    width:500px;
+    background: #242121;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #0f0f10,2px 2px 3px #030303;
+    padding: 5px;
+}
+
+.task-manager ul {
+    padding: 5px;
+    list-style: none;
+
+}
+.task-manager li {
+    padding:10px;
+    margin-bottom:3px;
+    border-bottom: 1px dotted gold;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 1px 1px goldenrod;
+}
+
+.add-task {
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.task-list {
+    color: gold;
+}
+.add-task input,button {
+    background: #000;
+    color: goldenrod;
+    padding: 5px;
+    margin-left: 5px;
+    border-color: gold;
+    border-radius: 5px;
+}
+.add-task input {
+    padding-left: 10px;
+}
+
+.add-task button {
+    width:100px ;
+}
+.task-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+.task-items div button {
+    margin-top: 10px;
+    margin-left:10px;
+    padding: 5px;
+    background: #000;
+    color: gold;
+    width: 70px;
+}
+.task-items div > input {
+    background: #000;
+    color: gold;
+    padding: 5px;
+}
